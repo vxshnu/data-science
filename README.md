@@ -5,3 +5,4 @@ ALGORITHMS such as:<br>
 ->Regression<br>
 ->Random Forest<br>
 ->KNN Classifier<br>
+Deep Learning Projects<br>
