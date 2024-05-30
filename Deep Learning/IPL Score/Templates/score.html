@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricket Scoreboard</title>
+    <title>IPL Predictor</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f2f2f2;
+            background-color: black;
         }
 
         .container {
             max-width: 600px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: cadetblue;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -44,7 +44,7 @@
 
         .score {
             font-size: 2em;
-            color: #333;
+            color: cornsilk;
             text-align: center;
             margin-bottom: 20px;
         }
@@ -58,13 +58,15 @@
 </head>
 <body>
     <div class="container">
-        <h1>Cricket Scoreboard</h1>
+        <h1>Innings Total</h1>
         <div class="team-score">
             <div class="team-names">{{team1}} vs {{team2}}</div>
             <div class="team-name">{{team1}} (Batting)</div>
             <div class="score">{{score}}</div>
         </div>
-        <a href="" class="back-button" action='/' >Back</a>
+        <form action="/">
+            <input type="submit" class="back-button" value="Back">
+        </form>
     </div>
 </body>
 </html>

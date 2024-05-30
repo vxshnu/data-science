@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricket Predictor</title>
+    <title>IPL Predictor</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -64,35 +64,35 @@
         <label for="venue">Venue:</label>
         <select name="venue" id="venue">
             {% for venue in venues: %}
-            <option value={{venue}}>{{venue}}</option>
+            <option value={{venue[1]}}>{{venue[0]}}</option>
             {% endfor %}
         </select>
 
         <label for="batting_team">Batting Team:</label>
         <select name="batting_team" id="batting_team">
             {% for bat in batting: %}
-            <option value={{bat}}>{{bat}}</option>
+            <option value={{bat[1]}}>{{bat[0]}}</option>
             {% endfor %}
         </select>
 
         <label for="bowling_team">Bowling Team:</label>
         <select name="bowling_team" id="bowling_team">
             {% for bowl in bowling: %}
-            <option value={{bowl}}>{{bowl}}</option>
+            <option value={{bowl[1]}}>{{bowl[0]}}</option>
             {% endfor %}
         </select>
 
         <label for="striker">Striker:</label>
         <select name="striker" id="striker">
             {% for strike in strikers: %}
-            <option value={{strike}}>{{strike}}</option>
+            <option value={{strike[1]}}>{{strike[0]}}</option>
             {% endfor %}
         </select>
 
         <label for="bowler">Bowler:</label>
         <select name="bowler" id="bowler">
             {% for bowler in bowlers: %}
-            <option value={{bowler}}>{{bowler}}</option>
+            <option value={{bowler[1]}}>{{bowler[0]}}</option>
             {% endfor %}
         </select>
 
