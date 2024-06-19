@@ -5,6 +5,8 @@ Machine Learning Algorithms such as:<br>
 ->Regression<br>
 ->Random Forest<br>
 ->KNN Classifier<br><br>
-Deep Learning Projects<br><br>
+Deep Learning Projects such as:<br>
+->IPL Score Prediction<br>
+->Digit Recognition<br><br>
 Numpy<br><br>
 Pandas<br><br>
